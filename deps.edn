@@ -3,8 +3,8 @@
         org.clojure/data.csv {:mvn/version "1.0.1"}
         org.clojure/data.json {:mvn/version "2.4.0"}
 
-        scicloj/tablecloth {:mvn/version "7.007"}
-        techascent/tech.ml.dataset {:mvn/version "7.007"}}
+        scicloj/tablecloth {:mvn/version "7.014"}
+        techascent/tech.ml.dataset {:mvn/version "7.014"}}
  :aliases
  {;; Run with clj -T:build uber
   :build {:deps {io.github.clojure/tools.build {:git/tag "v0.9.6" :git/sha "8e78bcc"}}
