@@ -12,16 +12,14 @@
                  {:file-type :csv})]
 
     (-> my-data
-        (tc/rename-columns {"date" :date
-                            "value" :value}))))
+        (tc/rename-columns [:date :value]))))
 
 (def io-data
   (let [my-data (io/file (io/resource "./path/file.csv"))]
 
     (-> my-data
         (tc/dataset)
-        (tc/rename-columns {"date" :date
-                            "value" :value}))))
+        (tc/rename-columns [:date :value]))))
 
 (defn -main
   [& args]
