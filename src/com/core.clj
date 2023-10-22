@@ -15,4 +15,4 @@
 
 (defn -main
   [& args]
-  my-data)
+  (println {:data my-data}))
