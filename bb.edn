@@ -1,0 +1,3 @@
+{:tasks
+ {build (shell "clj -T:build uber")
+  run (shell "java -jar ./target/mvp.jar")}}
